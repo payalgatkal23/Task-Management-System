@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>Simple Todo List</h2>
+
+<form action="/add" method="POST">
+    <input type="text" name="task" required>
+    <button>Add</button>
+</form>
+
+<ul id="list"></ul>
+
+<script>
+async function loadTasks() {
+    const res = await fetch('/tasks');
+    const data = await res.json();
+
+    const list = document.getElementById("list");
+    list.innerHTML = "";
+
+    data.forEach(todo => {
+        list.innerHTML += `
+            <li>
+                ${todo.task}
+                <a href="/delete/${todo._id}">Delete</a>
+            </li>
+        `;
+    });
+}
+
+loadTasks();
+</script>
+</div>
+</body>
+</html>
