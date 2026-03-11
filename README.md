@@ -10,3 +10,11 @@ Node.js | Express.js | REST APIs | MongoDB | Mongoose | HTML | CSS | JavaScript 
 - View all tasks  
 - Backend CRUD operations with Express.js  
 - Clean frontend using HTML & CSS  
+
+npm install
+node server.js
+
+## Author
+
+Payal Gatkal  
+GitHub: [payalgatkal23](https://github.com/payalgatkal23)
