@@ -11,6 +11,8 @@ Node.js | Express.js | REST APIs | MongoDB | Mongoose | HTML | CSS | JavaScript 
 - Backend CRUD operations with Express.js  
 - Clean frontend using HTML & CSS  
 
+## Run project
+
 npm install
 node server.js
 
