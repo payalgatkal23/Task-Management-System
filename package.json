@@ -1,0 +1,21 @@
+{
+  "name": "todo_list_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payalgatkal23/Todo_List_Application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/payalgatkal23/Todo_List_Application/issues"
+  },
+  "homepage": "https://github.com/payalgatkal23/Todo_List_Application#readme"
+}
