@@ -8,4 +8,3 @@ router.delete('/tasks/:id', userController.deleteTask);
 
 module.exports = router;
 
-
