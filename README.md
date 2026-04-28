@@ -26,6 +26,7 @@ A RESTful API built using Node.js, Express, and MongoDB for managing tasks. It a
 
 ## 📁 Project Structure (MVC)
 
+```
 project/
 │
 ├── models/ # Task schema
@@ -33,6 +34,7 @@ project/
 ├── routes/ # API routes
 ├── config/ # Database connection
 └── server.js # Entry point
+```
 
 ---
 
@@ -51,12 +53,13 @@ project/
 ```bash
 npm install
 node server.js
+```
 
 Make sure MongoDB is running locally.
 
 ---
 
-📌 Key Concepts Used
+## 📌 Key Concepts Used
 
 REST API design
 MVC architecture
@@ -67,16 +70,17 @@ MongoDB data modeling
 
 ---
 
-📷 Sample Request (POST /tasks)
+## 📷 Sample Request (POST /tasks)
 
+```json
 {
   "title": "Complete assignment",
   "status": "pending"
 }
-
+``` 
 ---
 
-🚧 Future Improvements
+## 🚧 Future Improvements
 Add update task functionality
 Add authentication (JWT)
 Implement pagination
@@ -85,7 +89,7 @@ Deploy API on cloud platforms (Render / AWS)
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Payal Gatkal
 GitHub: https://github.com/payalgatkal23
