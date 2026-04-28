@@ -29,11 +29,11 @@ A RESTful API built using Node.js, Express, and MongoDB for managing tasks. It a
 ```
 project/
 │
-├── models/ # Task schema
-├── controllers/ # Business logic
-├── routes/ # API routes
-├── config/ # Database connection
-└── server.js # Entry point
+├── models/        # Task schema
+├── controllers/   # Business logic
+├── routes/        # API routes
+├── config/        # Database connection
+└── server.js      # Entry point
 ```
 
 ---
