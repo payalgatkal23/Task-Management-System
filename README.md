@@ -61,12 +61,12 @@ Make sure MongoDB is running locally.
 
 ## 📌 Key Concepts Used
 
-REST API design
-MVC architecture
-CRUD operations
-Middleware usage
-Error handling
-MongoDB data modeling
+-REST API design
+-MVC architecture
+-CRUD operations
+-Middleware usage
+-Error handling
+-MongoDB data modeling
 
 ---
 
@@ -81,11 +81,11 @@ MongoDB data modeling
 ---
 
 ## 🚧 Future Improvements
-Add update task functionality
-Add authentication (JWT)
-Implement pagination
-Add task filtering (completed/pending)
-Deploy API on cloud platforms (Render / AWS)
+-Add update task functionality
+-Add authentication (JWT)
+-Implement pagination
+-Add task filtering (completed/pending)
+-Deploy API on cloud platforms (Render / AWS)
 
 ---
 
